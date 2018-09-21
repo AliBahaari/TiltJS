@@ -12,12 +12,12 @@ Then, You should initialize properties, Just copy the code below and paste it af
 ```
 <script>
   Tilt({
-    identifier: 'div', // Element (`.E`, `#E`, `E`, All are valid)
-    rotationInterval: 45, // Maximum degree for rotation
-    outRotationX: 0, // The `rotateX` property value of the element after `onMouseOut` event 
-    outRotationY: 0, // The `rotateY` property value of the element after `onMouseOut` event 
-    transitionIn: ['', '', '', ''], // Transition property for `onMouseMove` event
-    transitionOut: ['', '', '', ''] // Transition property for `onMouseOut` event
+    identifier: 'div',    // Element (`.E`, `#E`, `E`, All are valid)
+    rotationInterval: 45,    // Maximum degree for rotation
+    outRotationX: 0,    // The `rotateX` property value of the element after `onMouseOut` event 
+    outRotationY: 0,    // The `rotateY` property value of the element after `onMouseOut` event 
+    transitionIn: ['', '', '', ''],    // Transition property for `onMouseMove` event
+    transitionOut: ['', '', '', '']    // Transition property for `onMouseOut` event
   });
 </script>
 ```
