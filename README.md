@@ -22,3 +22,6 @@ Then, You should initialize properties, Just copy the code below and paste it af
 </script>
 ```
 Note : All the properties above should be filled; `identifier`, `transitionIn`, `transitionOut` should be ***String*** and `rotationInterval`, `outRotationX` and `outRotationY` should be ***Integer***.
+
+## Minified
+Minified version will be uploaded soon.
