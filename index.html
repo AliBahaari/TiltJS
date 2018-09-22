@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TiltJS</title>
+  <style>
+
+    @font-face {
+      font-family: IRANSans;
+      font-style: normal;
+      font-weight: normal;
+      src: url('Fonts/EOT/IRANSansWeb.eot');
+      src: url('Fonts/EOT/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+        url('Fonts/WOFF2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+        url('Fonts/WOFF/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('Fonts/TTF/IRANSansWeb.ttf') format('truetype');
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    div {
+      width: 250px;
+      height: 250px;
+      margin: 30px auto 0 auto;
+      border-radius: 100%;
+      background-image: url('Sample.jpg');
+      background-size: cover;
+    }
+
+    p,
+    a {
+      font-family: IRANSans;
+      text-align: center;
+      font-size: 15px;
+      margin-top: 50px;
+    }
+
+    a {
+      margin-top: 0;
+      display: block;
+      color: #0099FF;
+      margin-top: 25px;
+      text-decoration: none;
+      position: relative;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    a::after {
+      content: "";
+      width: 80px;
+      height: 1px;
+      background-color: #0099FF;
+      position: absolute;
+      top: calc(100% + 3px);
+      left: 50%;
+      transform: translate(-50%);
+    }
+
+  </style>
+</head>
+<body>
+
+  <div></div>
+  <p>
+    .نشان‌گر خود را بر روی عکس بالا حرکت دهید
+    <br>
+    Move the pointer over the image above.
+  </p>
+
+  <a href="https://GitHub.com/AliBahaari/TiltJS">GitHub</a>
+
+  <script src="Tilt - 1.0.0.js"></script>
+  <script>
+  
+  Tilt({
+    identifier: 'div',
+    rotationInterval: 45,
+    outRotationX: 0,
+    outRotationY: 0,
+    transitionIn: ['all', '500ms', 'linear', '0s'],
+    transitionOut: ['all', '500ms', 'linear', '500ms']
+  });
+  
+  </script>
+</body>
+</html>
