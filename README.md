@@ -22,6 +22,3 @@ Then, You should initialize properties, Just copy the code below and paste it af
 </script>
 ```
 Note : All the properties above should be filled; `identifier`, `transitionIn`, `transitionOut` should be ***String*** and `rotationInterval`, `outRotationX` and `outRotationY` should be ***Integer***.
-
-## Babel
-In minified version that actually is being used for production, It uses **Babel** for ResolutionJS to feel free for using in old browsers.
