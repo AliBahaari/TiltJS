@@ -1,5 +1,5 @@
 # TiltJS
-**TiltJS**
+**TiltJS** impose your website elements to behave more interactive.
 
 ## Add Project
 Just link TiltJS to your project, For example :
@@ -16,8 +16,8 @@ Then, You should initialize properties, Just copy the code below and paste it af
     rotationInterval: 45,    // Maximum degree for rotation
     outRotationX: 0,    // The `rotateX` property value of the element after `onMouseOut` event 
     outRotationY: 0,    // The `rotateY` property value of the element after `onMouseOut` event 
-    transitionIn: ['', '', '', ''],    // Transition property for `onMouseMove` event
-    transitionOut: ['', '', '', '']    // Transition property for `onMouseOut` event
+    transitionIn: ['transition-property', 'transition-duration', 'transition-timing-function', 'transition-delay'],    // Transition property for `onMouseMove` event
+    transitionOut: ['transition-property', 'transition-duration', 'transition-timing-function', 'transition-delay']    // Transition property for `onMouseOut` event
   });
 </script>
 ```
