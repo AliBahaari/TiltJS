@@ -1,5 +1,5 @@
 # TiltJS
-**TiltJS** imposes your website elements to behave more interactive; Works by hovering the cursor over any elements and the element tilts inward.
+**TiltJS** imposes your website elements to behave more interactive; Works by hovering the cursor over any elements and the element tilts inward. TiltJS just uses ***JavaScript*** and nothing else.
 
 ## Add Project
 Just link TiltJS to your project, For example :
