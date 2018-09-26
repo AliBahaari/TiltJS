@@ -4,7 +4,7 @@
 ## Add Project
 Just link TiltJS to your project, For example :
 ```
-<script src="Tilt.js"></script>
+<script src="Tilt - 1.0.0.js"></script>
 ```
 
 ## Initializing
