@@ -1,14 +1,17 @@
 # TiltJS
-**TiltJS** imposes your website elements to behave more interactive; Works by hovering the cursor over any elements and the element tilts inward. TiltJS just uses ***JavaScript*** and nothing else.
+
+Hover over any element and the element tilts inward. It just uses *JavaScript*.
 
 ## Add Project
-Just link TiltJS to your project, For example :
+
+Just link TiltJS to your project :
 ```
 <script src="Tilt - 1.0.0.js"></script>
 ```
 
 ## Initializing
-Then, You should initialize properties, Just copy the code below and paste it after the code above.
+
+Then, you should initialize properties, just copy the code below and paste it after the code above.
 ```
 <script>
   Tilt({
@@ -21,7 +24,8 @@ Then, You should initialize properties, Just copy the code below and paste it af
   });
 </script>
 ```
-Note : All the properties above should be filled; `identifier`, `transitionIn`, `transitionOut` should be ***String*** and `rotationInterval`, `outRotationX` and `outRotationY` should be ***Integer***.
+*Note :* All the properties above should be filled; `identifier`, `transitionIn`, `transitionOut` should be ***String***; `rotationInterval`, `outRotationX`, `outRotationY` should be ***Integer***.
 
 ## Minified
-Minified version will be uploaded soon.
+
+In the minified version, it uses Babel to feel free for using in old version browsers.
