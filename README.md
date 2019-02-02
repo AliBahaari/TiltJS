@@ -1,5 +1,7 @@
 # TiltJS
 
+![JavaScript Badge](https://alibahaari.github.io/Badge/JavaScript.png)
+
 Hover over any element and the element tilts inward. It just uses *JavaScript*.
 
 ## Add Project
