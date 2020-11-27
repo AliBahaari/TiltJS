@@ -22,43 +22,32 @@
       box-sizing: border-box;
     }
 
-    div {
-      width: 250px;
-      height: 250px;
-      margin: 30px auto 0 auto;
-      border-radius: 100%;
-      background-image: url('Sample.jpg');
-      background-size: cover;
-    }
-
-    p,
-    a {
+    body {
       font-family: IRANSans;
-      text-align: center;
-      font-size: 15px;
-      margin-top: 50px;
+    }
+
+    div {
+      width: 200px;
+      height: 200px;
+      margin: 30px auto 0 auto;
+      background-color: #f5f6fa;
+      border: 1px solid #dcdde1;
     }
 
     a {
-      margin-top: 0;
-      display: block;
-      color: #0099FF;
-      margin-top: 25px;
+      top: 18px;
+      left: 18px;
+      color: #5f27cd;
       text-decoration: none;
-      position: relative;
+      position: absolute;
       cursor: pointer;
       font-size: 14px;
     }
 
-    a::after {
-      content: "";
-      width: 80px;
-      height: 1px;
-      background-color: #0099FF;
-      position: absolute;
-      top: calc(100% + 3px);
-      left: 50%;
-      transform: translate(-50%);
+    a:hover,
+    a:focus,
+    a:active {
+      color: #341f97;
     }
 
   </style>
@@ -66,11 +55,6 @@
 <body>
 
   <div></div>
-  <p>
-    .نشان‌گر خود را بر روی عکس بالا حرکت دهید
-    <br>
-    Move the pointer over the image above.
-  </p>
 
   <a href="https://GitHub.com/AliBahaari/TiltJS">GitHub</a>
 
@@ -79,11 +63,11 @@
   
   Tilt({
     identifier: 'div',
-    rotationInterval: 45,
+    rotationInterval: 14,
     outRotationX: 0,
     outRotationY: 0,
-    transitionIn: ['all', '500ms', 'linear', '0s'],
-    transitionOut: ['all', '500ms', 'linear', '500ms']
+    transitionIn: ['ease', '100ms'],
+    transitionOut: ['ease', '100ms']
   });
   
   </script>
