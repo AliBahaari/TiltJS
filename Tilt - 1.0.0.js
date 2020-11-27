@@ -39,13 +39,13 @@ function Tilt(objectVar) {
     var transitionInComp = ` ${transitionIn[0]} ${transitionIn[1]}`;
 
     var CSSProperties = `
-    -webkit-transition: ${transitionInComp};
-       -moz-transition: ${transitionInComp};
-         -o-transition: ${transitionInComp};
-            transition: ${transitionInComp};    
-      -webkit-transform: ${WebKitProperty};
-         -moz-transform: ${MOZProperty};
-              transform: ${defaultProperty};
+    -webkit-transition:${transitionInComp};
+       -moz-transition:${transitionInComp};
+         -o-transition:${transitionInComp};
+            transition:${transitionInComp};    
+      -webkit-transform:${WebKitProperty};
+         -moz-transform:${MOZProperty};
+              transform:${defaultProperty};
     `;
     
     DOMElement.style.cssText = CSSProperties;
@@ -57,13 +57,13 @@ function Tilt(objectVar) {
     var outRotationXY = ` rotateX(${outRotationX}deg) rotateY(${outRotationY}deg)`;
 
     var CSSProperties = `
-    -webkit-transition: ${transitionOutComp};
-       -moz-transition: ${transitionOutComp};
-         -o-transition: ${transitionOutComp};
-            transition: ${transitionOutComp};    
-      -webkit-transform: ${outRotationXY};
-         -moz-transform: ${outRotationXY};
-              transform: ${outRotationXY};
+    -webkit-transition:${transitionOutComp};
+       -moz-transition:${transitionOutComp};
+         -o-transition:${transitionOutComp};
+            transition:${transitionOutComp};    
+      -webkit-transform:${outRotationXY};
+         -moz-transform:${outRotationXY};
+              transform:${outRotationXY};
     `;
 
     DOMElement.style.cssText = CSSProperties;
