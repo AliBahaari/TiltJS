@@ -19,12 +19,12 @@ Then, you should initialize properties, just copy the code below and paste it af
     rotationInterval: 45,    // Maximum degree for rotation
     outRotationX: 0,    // The `rotateX` property value of the element after `onMouseOut` event 
     outRotationY: 0,    // The `rotateY` property value of the element after `onMouseOut` event 
-    transitionIn: ['transition-property', 'transition-duration', 'transition-timing-function', 'transition-delay'],    // Transition property for `onMouseMove` event
-    transitionOut: ['transition-property', 'transition-duration', 'transition-timing-function', 'transition-delay']    // Transition property for `onMouseOut` event
+    transitionIn: ['transition-timing-function', 'transition-duration'],    // Transition property for `onMouseMove` event
+    transitionOut: ['transition-timing-function', 'transition-duration']    // Transition property for `onMouseOut` event
   });
 </script>
 ```
-*Note :* All the properties above should be filled; `identifier`, `transitionIn`, `transitionOut` should be ***String***; `rotationInterval`, `outRotationX`, `outRotationY` should be ***Integer***.
+*Note :* All the properties above should be filled; `identifier` should be ***String***, `transitionIn`, `transitionOut` should be ***Array***s; `rotationInterval`, `outRotationX`, `outRotationY` should be ***Integer***s.
 
 ## Minified
 
