@@ -24,7 +24,7 @@ Then, you should initialize properties, just copy the code below and paste it af
   });
 </script>
 ```
-*Note :* All the properties above should be filled; `identifier` should be ***String***, `transitionIn`, `transitionOut` should be ***Array***s; `rotationInterval`, `outRotationX`, `outRotationY` should be ***Integer***s.
+*Note :* All the properties above should be filled; `identifier` should be ***String***, `transitionIn`, `transitionOut` should be ***Array***; `rotationInterval`, `outRotationX`, `outRotationY` should be ***Integer***.
 
 ## Minified
 
