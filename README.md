@@ -1,6 +1,6 @@
 # TiltJS
 
-Hover over any element and the element tilts inward. It just uses *JavaScript*.
+By ***TiltJS***, you hover over any element and the element tilts inward. It just uses *JavaScript*.
 
 ## Add Project
 
